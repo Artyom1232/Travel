@@ -1,0 +1,335 @@
+header{
+   height: 100vh;
+   background-image: url(img/a2d6759235199732f2c4b01cf91f7889.jpg);
+   background-size: cover;
+}
+body{
+    margin: 0;
+}
+header div{
+ display: flex;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.363);
+
+}
+header h1{
+    margin: auto;
+    color: blanchedalmond;
+    font-size: 10vw;
+    font-family: Caveat;
+}
+@font-face {
+    font-family: Caveat;
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
+}
+
+#Alaska {
+    background-image: url(img/pexelsphoto540518.jpeg);
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    width: 50%;
+    font-size: 3vw;
+    padding: 3%;
+    color:aqua;
+    transition: all 1s;
+}
+
+#right {
+    width: 50%;
+    color: aquamarine;
+    padding: 3%;
+    line-height: 1.7;
+    font-size: 1vw;
+    transition: all 1s;
+}
+#Alaska button {
+    padding: 20px 40px;
+    background-color: blue;
+    border: none;
+}
+#fil{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.425);
+    
+    }
+    #ch{
+        background-image: url(img/китай.jpg);
+        background-size: cover;
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+    #ch img{
+        border-radius: 50%;
+        width: 30%;
+    }
+    #ch h2{
+        color: #ff0000;
+        font-size: 4vw;
+        padding-left: 40%;
+    }
+    #ch div{
+        width: 30%;
+    }
+    #ch p{
+        color: #000000;
+        font-size: 1.5vw;
+        line-height: 1.5;
+        border:  #000000 solid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background-color: #ffffff5b;
+    }
+    #ch button{
+        padding: 20px 40px;
+        border-color: white;
+        border-width: 3px ;
+        background-color: #ffffff;
+        color: rgb(219, 25, 25);
+        font-size: 1.5vw;
+        
+    }
+#Egypt{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    padding-bottom: 100px;
+}
+#Egypt #info{
+width: 35%;
+height: 700px;
+}
+#Egypt img{
+    width: 35%;
+    height: 700px;
+    object-fit: cover;
+    
+}
+#statuya{
+    object-position: -300px 0;
+}
+#Egypt #info img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+
+}
+#info div{
+    width: 80%;
+    border: 3px solid burlywood;
+    box-shadow: 5px 5px 5px 5px silver;
+    margin-left: 10%;
+    margin-top: -90px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: rgb(252, 221, 155);
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+#venecia{
+    background-image: url(img/венеция.jpg);
+    background-size: cover;
+        padding: 60px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        
+        
+
+}
+#venecia p{
+    color: #000000;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    
+    border-radius: 10px;
+    background-color: #ffffff5b;
+}
+
+#venecia h2{
+    color: #000000;
+        font-size: 4vw;
+        
+}
+
+#venecia #info{
+width: 35%;
+height: 700px;
+padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#venecia img{
+    width: 35%;
+    height: 600px;
+    object-fit: cover;
+    border:  #000000 solid;
+    transition: all 1s;
+    
+}
+#v3{
+    object-position: -300px 0;
+    border:  #000000 solid;
+
+}
+#venecia #info img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    
+    
+
+}
+
+#info div{
+    width: 80%;
+    border: 3px solid rgba(255, 255, 255, 0);
+    box-shadow: 5px 5px 5px 5px rgba(192, 192, 192, 0);
+    margin-left: 10%;
+    margin-top: -90px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+#luna{
+   background-image: url(img/луна.jpg);
+   background-size: cover;
+   padding: 10px;
+   display: flex;
+   height: 80vh;
+}
+
+#luna1{
+    color: #e4a42e;
+        font-size: 3vw;
+}
+
+#luna2{
+    color: #e4a42e;
+        font-size: 2vw;
+margin-left: 47%;
+}
+#galaxy{
+    background-image: url(img/galaxy.jpg);
+   background-size: cover;
+   height: 65vh;
+   display: flex;
+   justify-content: space-around;
+   padding: 10%;
+   box-sizing: border-box;
+}
+#koll{
+    color: #ffffff;
+    font-size: 2vw;
+}
+#koll2{
+    width: 50%;
+    font-size: 3em;
+    line-height: 1.2;
+    color:#ffffff;
+    align-self: flex-end;
+}
+#bron {
+    background-image: url(img/5d47b3b01b41bbd587043be61b4f5230.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+#bron form{
+display: flex;
+flex-direction: column;
+gap:15px;
+justify-content: center;
+width: 40%;
+margin: auto;
+}
+#bron input, #bron select{
+    width:100%;
+    font-size: 20px;
+    box-shadow: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#bron h2{
+    font-size: 4vw;
+    color: rgb(5, 156, 156);
+
+}
+[type=sumbit] {
+margin-top: 30px;
+transition: all 1s;
+text-align: center;
+}
+[type=sumbit]:hover {
+    transform: scale(1.2);
+    text-align: center;
+}
+#bron2 div{
+    width: fit-content;
+margin: auto;
+border: 10px dashed darkblue;
+padding: 20px;
+}
+
+#bron2{
+    padding: 50px;
+}
+nav{
+    padding: 15px 0;
+    background-color: rgba(104, 104, 104, 0.547);
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav a:last-child{
+    border: none
+}
+html{
+    scroll-behavior: smooth;
+}
+#up{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+nav a:hover{
+    color: white;
+}    
+footer{
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+    font-family: Shafarik;
+}
